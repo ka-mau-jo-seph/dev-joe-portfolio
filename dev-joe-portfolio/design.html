@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Design · Joseph Kamau Ngigi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script>try{var t=localStorage.getItem('jkn-theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="index.html">Dev <span>Joe</span></a>
+    <nav aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="design.html" class="active" aria-current="page">Design</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="top-right">
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Switch light or dark theme">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+  <div class="page-hero">
+    <div class="wrap">
+      <div class="crumb"><a href="index.html">Home</a> / <span>Design</span></div>
+      <h1>Design that <em>sells gas.</em></h1>
+      <p>Branding and marketing I’ve designed for Wamaina Gas Suppliers and other clients, from logos to the posts customers see every month.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="tools-row">
+        <span class="label">Tools I use</span>
+        <div class="chips"><span class="chip">Photoshop</span><span class="chip">Illustrator</span><span class="chip">Premiere Pro</span><span class="chip">CapCut</span></div>
+      </div>
+      <div class="filters" role="group" aria-label="Filter designs">
+        <button class="filter" type="button" id="f-all" data-filter="all" aria-pressed="true">All <span>14</span></button>
+        <button class="filter" type="button" id="f-brand" data-filter="Brand" aria-pressed="false">Brand <span>4</span></button>
+        <button class="filter" type="button" id="f-promo" data-filter="Promotions" aria-pressed="false">Promotions <span>6</span></button>
+        <button class="filter" type="button" id="f-social" data-filter="Social media" aria-pressed="false">Social media <span>4</span></button>
+      </div>
+      <div class="gallery" id="gallery">
+        <figure class="work" data-cat="Brand">
+          <button class="work-btn" type="button" data-index="0" aria-label="View Wamaina Gas logo">
+            <img src="design/logo-t.jpg" alt="Wamaina Gas logo" width="640" height="611" loading="lazy">
+          </button>
+          <figcaption><span class="label">Brand</span><b>Wamaina Gas logo</b><span class="work-desc">The shop’s brand mark, with a flame worked into the G and an “Authorized Dealer” signature.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Brand">
+          <button class="work-btn" type="button" data-index="1" aria-label="View Business card">
+            <img src="design/business-card-t.jpg" alt="Business card" width="640" height="427" loading="lazy">
+          </button>
+          <figcaption><span class="label">Brand</span><b>Business card</b><span class="work-desc">Card layout with the logo, cylinder brands, slogan and both order lines.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Brand">
+          <button class="work-btn" type="button" data-index="2" aria-label="View Company profile cover">
+            <img src="design/company-profile-t.jpg" alt="Company profile cover" width="640" height="453" loading="lazy">
+          </button>
+          <figcaption><span class="label">Brand</span><b>Company profile cover</b><span class="work-desc">Landscape cover with contact details over a photo of the shop.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Promotions">
+          <button class="work-btn" type="button" data-index="3" aria-label="View Gas and accessories poster">
+            <img src="design/accessories-poster-t.jpg" alt="Gas and accessories poster" width="640" height="453" loading="lazy">
+          </button>
+          <figcaption><span class="label">Promotions</span><b>Gas and accessories poster</b><span class="work-desc">The full product range in one layout: cylinders, burners, grills, pipes and regulators.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Promotions">
+          <button class="work-btn" type="button" data-index="4" aria-label="View Cylinder brands flyer">
+            <img src="design/brands-flyer-t.jpg" alt="Cylinder brands flyer" width="640" height="640" loading="lazy">
+          </button>
+          <figcaption><span class="label">Promotions</span><b>Cylinder brands flyer</b><span class="work-desc">Hexagon layout showing the six cylinder brands the shop stocks, with free delivery.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Promotions">
+          <button class="work-btn" type="button" data-index="5" aria-label="View Afrigas 6 kg price promo">
+            <img src="design/afrigas-promo-t.jpg" alt="Afrigas 6 kg price promo" width="640" height="640" loading="lazy">
+          </button>
+          <figcaption><span class="label">Promotions</span><b>Afrigas 6 kg price promo</b><span class="work-desc">Single-product promotion with the price, contacts and social icons.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Promotions">
+          <button class="work-btn" type="button" data-index="6" aria-label="View TotalEnergies combo promo">
+            <img src="design/totalenergies-promo-t.jpg" alt="TotalEnergies combo promo" width="640" height="640" loading="lazy">
+          </button>
+          <figcaption><span class="label">Promotions</span><b>TotalEnergies combo promo</b><span class="work-desc">Cylinder and burner bundle promotion with the price called out.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Promotions">
+          <button class="work-btn" type="button" data-index="7" aria-label="View Delivery areas poster">
+            <img src="design/delivery-areas-t.jpg" alt="Delivery areas poster" width="640" height="640" loading="lazy">
+          </button>
+          <figcaption><span class="label">Promotions</span><b>Delivery areas poster</b><span class="work-desc">Every area the rider delivers to, next to a photo of the delivery uniform.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Social media">
+          <button class="work-btn" type="button" data-index="8" aria-label="View Happy New Month: October">
+            <img src="design/october-t.jpg" alt="Happy New Month: October" width="512" height="640" loading="lazy">
+          </button>
+          <figcaption><span class="label">Social media</span><b>Happy New Month: October</b><span class="work-desc">Monthly thank-you post for customers, in the brand’s red and navy.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Social media">
+          <button class="work-btn" type="button" data-index="9" aria-label="View Mashujaa Day post">
+            <img src="design/mashujaa-day-t.jpg" alt="Mashujaa Day post" width="640" height="640" loading="lazy">
+          </button>
+          <figcaption><span class="label">Social media</span><b>Mashujaa Day post</b><span class="work-desc">Holiday greeting combining the Kenyan flag with the shop’s cylinders.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Social media">
+          <button class="work-btn" type="button" data-index="10" aria-label="View Labour Day post">
+            <img src="design/labour-day-t.jpg" alt="Labour Day post" width="640" height="640" loading="lazy">
+          </button>
+          <figcaption><span class="label">Social media</span><b>Labour Day post</b><span class="work-desc">Holiday greeting featuring the delivery rider at work.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Social media">
+          <button class="work-btn" type="button" data-index="11" aria-label="View Customer Service Week poster">
+            <img src="design/customer-service-week-t.jpg" alt="Customer Service Week poster" width="427" height="640" loading="lazy">
+          </button>
+          <figcaption><span class="label">Social media</span><b>Customer Service Week poster</b><span class="work-desc">Thank-you poster for customers, with the shop’s full range of cylinder brands.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Brand">
+          <button class="work-btn" type="button" data-index="12" aria-label="View Mûthigi Traditional Dancers logo">
+            <img src="design/muthigi-logo-t.jpg" alt="Mûthigi Traditional Dancers logo" width="567" height="567" loading="lazy">
+          </button>
+          <figcaption><span class="label">Brand · Client work</span><b>Mûthigi Traditional Dancers logo</b><span class="work-desc">Circular logo for a traditional dance group: dancers and an acacia tree over a map of Africa at sunset.</span></figcaption>
+        </figure>
+        <figure class="work" data-cat="Promotions">
+          <button class="work-btn" type="button" data-index="13" aria-label="View Mûthigi Traditional Dancers banner">
+            <img src="design/muthigi-banner-t.jpg" alt="Mûthigi Traditional Dancers banner" width="640" height="366" loading="lazy">
+          </button>
+          <figcaption><span class="label">Promotions · Client work</span><b>Mûthigi Traditional Dancers banner</b><span class="work-desc">Booking banner for weddings, ruracio, graduations and other ceremonies, with the troupe’s photo and contacts.</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <div class="sec-head">
+        <div class="kicker">Video and motion</div>
+        <h2>Ads that move.</h2>
+        <p>Short promotional videos and logo animations for social media, edited in Adobe Premiere Pro and CapCut. Tap a video to play it.</p>
+      </div>
+      <div class="videos">
+        <figure class="vid">
+          <div class="vid-frame"><video src="video/logo-animation.mp4" poster="video/logo-animation.jpg" controls preload="none" playsinline width="1280" height="720"></video></div>
+          <figcaption><span class="label">Wamaina Gas · 0:10</span><b>Wamaina Gas logo animation</b><span class="work-desc">The logo builds letter by letter and the flame lights up, ending on the “We complement your kitchen” tagline.</span></figcaption>
+        </figure>
+        <figure class="vid">
+          <div class="vid-frame"><video src="video/wamaina-promo.mp4" poster="video/wamaina-promo.jpg" controls preload="none" playsinline width="1280" height="720"></video></div>
+          <figcaption><span class="label">Wamaina Gas · 0:10</span><b>Wamaina Gas promo video</b><span class="work-desc">Motion graphics that bring in the logo, the cylinder brands and both order lines, for social media.</span></figcaption>
+        </figure>
+        <figure class="vid">
+          <div class="vid-frame"><video src="video/butchery-ad.mp4" poster="video/butchery-ad.jpg" controls preload="none" playsinline width="1280" height="720"></video></div>
+          <figcaption><span class="label">Client work · 0:10</span><b>Murigu’s Silver Butchery advert</b><span class="work-desc">Short advert for a butchery in Kwambira with the “Quality meat” badge, location and enquiry number.</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="wrap">
+      <h2>Need a website and the brand to go with it?</h2>
+      <a class="btn" href="contact.html">Get in touch <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </section>
+
+  <div class="lightbox gallery-box" id="gal-box" hidden role="dialog" aria-modal="true" aria-label="Design viewer">
+    <div class="lightbox-inner gal-inner">
+      <button class="lightbox-close" type="button" id="gal-close" aria-label="Close viewer">×</button>
+      <div class="gal-stage">
+        <button class="gal-nav prev" type="button" id="gal-prev" aria-label="Previous design">‹</button>
+        <img id="gal-img" src="design/logo.jpg" alt="">
+        <button class="gal-nav next" type="button" id="gal-next" aria-label="Next design">›</button>
+      </div>
+      <div class="gal-cap"><span class="label" id="gal-cat"></span><b id="gal-title"></b><span id="gal-desc"></span><span class="gal-count" id="gal-count"></span></div>
+    </div>
+  </div>
+  <script>window.DESIGN_WORKS = [{"src": "design/logo.jpg", "title": "Wamaina Gas logo", "cat": "Brand", "desc": "The shop’s brand mark, with a flame worked into the G and an “Authorized Dealer” signature."}, {"src": "design/business-card.jpg", "title": "Business card", "cat": "Brand", "desc": "Card layout with the logo, cylinder brands, slogan and both order lines."}, {"src": "design/company-profile.jpg", "title": "Company profile cover", "cat": "Brand", "desc": "Landscape cover with contact details over a photo of the shop."}, {"src": "design/accessories-poster.jpg", "title": "Gas and accessories poster", "cat": "Promotions", "desc": "The full product range in one layout: cylinders, burners, grills, pipes and regulators."}, {"src": "design/brands-flyer.jpg", "title": "Cylinder brands flyer", "cat": "Promotions", "desc": "Hexagon layout showing the six cylinder brands the shop stocks, with free delivery."}, {"src": "design/afrigas-promo.jpg", "title": "Afrigas 6 kg price promo", "cat": "Promotions", "desc": "Single-product promotion with the price, contacts and social icons."}, {"src": "design/totalenergies-promo.jpg", "title": "TotalEnergies combo promo", "cat": "Promotions", "desc": "Cylinder and burner bundle promotion with the price called out."}, {"src": "design/delivery-areas.jpg", "title": "Delivery areas poster", "cat": "Promotions", "desc": "Every area the rider delivers to, next to a photo of the delivery uniform."}, {"src": "design/october.jpg", "title": "Happy New Month: October", "cat": "Social media", "desc": "Monthly thank-you post for customers, in the brand’s red and navy."}, {"src": "design/mashujaa-day.jpg", "title": "Mashujaa Day post", "cat": "Social media", "desc": "Holiday greeting combining the Kenyan flag with the shop’s cylinders."}, {"src": "design/labour-day.jpg", "title": "Labour Day post", "cat": "Social media", "desc": "Holiday greeting featuring the delivery rider at work."}, {"src": "design/customer-service-week.jpg", "title": "Customer Service Week poster", "cat": "Social media", "desc": "Thank-you poster for customers, with the shop’s full range of cylinder brands."}, {"src": "design/muthigi-logo.jpg", "title": "Mûthigi Traditional Dancers logo", "cat": "Brand · Client work", "desc": "Circular logo for a traditional dance group: dancers and an acacia tree over a map of Africa at sunset."}, {"src": "design/muthigi-banner.jpg", "title": "Mûthigi Traditional Dancers banner", "cat": "Promotions · Client work", "desc": "Booking banner for weddings, ruracio, graduations and other ceremonies, with the troupe’s photo and contacts."}];</script>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>© 2026 Joseph Kamau Ngigi · Limuru, Kenya</span>
+    <a class="to-top" href="#top">Back to top ↑</a>
+  </div>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
